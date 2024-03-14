@@ -43,4 +43,18 @@ let b = ++a
 
 // console.log(`a:${a}, b:${b}`);
 
-console.log(2 == 4);
+// console.log(2 == 4);
+
+// console.log("2" > 1);
+// console.log("2" > 4);
+
+// console.log(null == 0);
+// console.log(null > 0);
+// console.log(null < 0);
+// console.log(null >= 0);
+
+// === 
+console.log("2" === 2);
+
+
+
