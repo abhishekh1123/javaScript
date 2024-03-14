@@ -11,7 +11,8 @@
 // undefined =>
 // symbol
  
-let age = 22;
-console.log(typeof null); //object
-console.log(typeof undefined); //undefined
-console.log(typeof age);
+// let age = 22;
+// console.log(typeof null); //object
+// console.log(typeof undefined); //undefined
+// console.log(typeof age);
+
