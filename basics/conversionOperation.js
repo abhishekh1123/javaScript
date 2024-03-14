@@ -21,12 +21,26 @@
 
 let bool = 0;
 
-console.log(typeof bool);
+// console.log(typeof bool);
 
 let isBool = Boolean(bool);
 
-console.log(typeof isBool);
-console.log(isBool);
+// console.log(typeof isBool);
+// console.log(isBool);
 
 // 1 => ture; 0 => false
 // "" => false; "abhi" => true
+
+//***************Operations************************** */
+
+let x = 3
+let y = x++
+
+// console.log(`x:${x}, y:${y}`);
+
+let a = 5
+let b = ++a
+
+// console.log(`a:${a}, b:${b}`);
+
+console.log(2 == 4);
