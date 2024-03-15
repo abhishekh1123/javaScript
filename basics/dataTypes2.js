@@ -44,4 +44,32 @@ const myFunciton = function(){
     console.log("Hello World");
 }
 
-console.log(typeof id);
+// console.log(typeof id);
+
+
+// ++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+
+//Stack type
+let name = "Abhi"
+
+let anoterName = name
+anoterName = "isWhat"
+// console.log(name);
+// console.log(anoterName);
+
+
+//Heap Type
+
+let userOne = {
+    email: "abhi@google.com",
+    upi: "abc@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "new@google.com"
+userTwo.upi = "new@oksbi"
+
+// console.log(userOne.email);
