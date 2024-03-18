@@ -16,10 +16,12 @@
 
 // console.log(newName.charAt(3));
 // console.log(newName.indexOf("e"));
+
 // console.log(newName.length);
+
 // const newString = newName.substring(0, 5)
 // console.log(newString);
-// 
+
 // const anotherString = newName.slice(-8, 5 )
 // console.log(anotherString);
 
@@ -33,10 +35,12 @@ const sentence = "This is a demo sentence to check the split method"
 
 const words = sentence.split(' ')
 
-console.log(words);
+// console.log(words);
 
 const char = sentence.split("")
-console.log(char)
+// console.log(char)
 
+const url = "https//:abhi.com/abhi/what%20kumar"
 
-// changes
+console.log(url.replace('%20', '-'));
+
