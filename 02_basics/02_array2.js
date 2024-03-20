@@ -29,4 +29,6 @@ let score2 = 200
 let score3 = 300
 let score4 = 400
 
-console.log(Array.of(score1, score2, score3, score4));
+// console.log(Array.of(score1, score2, score3, score4));
+
+console.log(Array.isArray(arr));
