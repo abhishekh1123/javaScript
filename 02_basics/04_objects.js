@@ -48,9 +48,9 @@ const result_obj = {...obj1, ...obj2, ...obj3}
 
 // console.log(myUser);
 
-console.log(Object.keys(myUser));
-console.log(Object.values(myUser));
-console.log(Object.entries(myUser));
+// console.log(Object.keys(myUser));
+// console.log(Object.values(myUser));
+// console.log(Object.entries(myUser));
 
 const user = [
     {
@@ -73,4 +73,28 @@ const user = [
 
 // console.log(user[0].email);
 
-console.log(myUser.hasOwnProperty("isLogged"));
+// console.log(myUser.hasOwnProperty("isLogged"));
+
+
+const course = {
+    courseName: "My course",
+    price: "499",
+    courseInstructor: "Abhi"
+}
+//  console.log(course.courseInstructor);
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+
+
+// Deconstruction form react
+
+// const navbar = ({company}) => {
+
+// }
+// navbar(company = "abhi") 
+
+
+
+ 
+
