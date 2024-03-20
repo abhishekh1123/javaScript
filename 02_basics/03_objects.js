@@ -1,4 +1,4 @@
-
+// Singleton
 
 
 // Object literals 
