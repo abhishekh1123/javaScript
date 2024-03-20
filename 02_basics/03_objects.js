@@ -20,16 +20,19 @@ const User = {
 
 User.email = "newEmail@mail.com"
 
-Object.freeze(User)
+// Object.freeze(User)
 
-User["email"] = "newEmail2222@mail.com"
+// User["email"] = "newEmail2222@mail.com"
 
 // console.log(User["email"]);
 
 User.greeting = function(){
     console.log("My first function")
+}
 
+User.greetingTwo = function(){
+    console.log(`My first function ${this.name}`)
 }
 
 console.log(User.greeting())
-// console.log();
+console.log(User.greetingTwo())
