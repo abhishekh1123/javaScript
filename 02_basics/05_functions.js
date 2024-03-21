@@ -26,4 +26,15 @@ function assTwoNumbers(num1, num2){
     return (num1 + num2)
 }
 
-console.log(assTwoNumbers(8, '5'))
+// console.log(assTwoNumbers(8, null))
+
+function loginUserMessage(userName) {
+    if(!userName){
+        console.log("Please Enter a name");
+        return;
+    }
+    return `${userName} just logged in`
+}
+
+// console.log(loginUserMessage())
+
