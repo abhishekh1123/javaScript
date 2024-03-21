@@ -38,3 +38,35 @@ function loginUserMessage(userName) {
 
 // console.log(loginUserMessage())
 
+//in array we use [...num1, ...num2, ...num3] as spread operator for the 
+//here ...num is rest operator
+
+function calculateCartPrice(...num){
+    return num;
+}
+
+// console.log(calculateCartPrice(100, 200, 300, 400));
+
+
+const user = {
+    username: "Abhishekh Kumar",
+    prices: 899
+}
+
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.prices}`);
+}
+
+// handleObject(user);
+// handleObject({
+//     username: "Abhi K",
+//     prices: 699
+// })
+
+const myNewArray = [100, 200, 300, 400]
+
+function returnArray(getArray){
+    return getArray[2]
+}
+
+// console.log(returnArray([500, 600, 400, 100]));
