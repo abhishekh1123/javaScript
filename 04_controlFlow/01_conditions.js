@@ -68,3 +68,12 @@
 
 // const foo = null ?? 'default string';
 // console.log(foo);
+
+
+// Terniary Operator
+
+// condition ? ture : false
+
+const isLoggedIn = true
+
+isLoggedIn ? console.log("Logged In") : console.log("Not Logged In");
