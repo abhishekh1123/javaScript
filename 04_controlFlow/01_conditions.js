@@ -57,3 +57,14 @@
 //     console.log("Executed");
 // }
 
+// Nullish Coalescing Operator (??): null undefined
+
+// let val1;
+// val1 = 5 ?? 15
+
+
+// console.log(val1);
+
+
+// const foo = null ?? 'default string';
+// console.log(foo);
