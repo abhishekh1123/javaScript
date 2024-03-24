@@ -42,3 +42,18 @@
 // else{
 //     console.log(`Temperature is less then 1200`);
 // }
+
+// const userLoggedIn = true
+// const debitCard = true
+
+// if(userLoggedIn && debitCard){
+//     console.log("Executed");
+// }
+
+// const userLoggedIn = true
+// const debitCard = false
+
+// if(userLoggedIn || debitCard){
+//     console.log("Executed");
+// }
+
