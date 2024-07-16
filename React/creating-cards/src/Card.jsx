@@ -1,11 +1,11 @@
-
+import profilePic from './assets/profile.jpeg'
 
 function Card(){
     return(
         <div className="card">
-            <img src="http://via.placeholder.com/150" alt="profile picture" />
-            <h2>Abhishekh</h2>
-            <p>I am a Student who lifts</p>
+            <img  className = "card-image" src={profilePic} alt="profile picture" />
+            <h2 className='card-title'>Abhi</h2>
+            <p className='card-text'>I am a Student who lifts</p>
         </div> 
     );
 }
