@@ -13,6 +13,12 @@ function App() {
                   {id: 4, name: "Pinnaple", calories: 37},
                   {id: 5, name: "Coconut", calories: 159}];
 
+  const vegitables = [{id: 6, name: "Potato", calories: 110}, 
+                  {id: 7, name: "Onion", calories: 78}, 
+                  {id: 8, name: "Carrots", calories: 25}, 
+                  {id: 9, name: "Corn", calories: 37},
+                  {id: 10, name: "Broccoli", calories: 50}];
+
   return(
     <>
       {/* <Header/> */}
@@ -30,6 +36,7 @@ function App() {
 
       
       <List items = {fruits} category = "Fruits"/>
+      <List items = {vegitables} category = "Vegitable"/>
     </>
   );
 }

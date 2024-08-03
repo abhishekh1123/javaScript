@@ -14,15 +14,20 @@ function List(props){
     // const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
     
     // const highCalFruits = fruits.filter(fruit => fruit.calories > 100)
-
+    const category = props.category;
     const itemList = props.items;
 
 
     const listItems = itemList.map(item => <li key = {item.id}>
-                                                    {item.name}: &nbsp;
-                                                    <b>{item.calories}</b></li>);
+                                            {item.name}: &nbsp;
+                                            <b>{item.calories}</b></li>);
 
-    return(<ul>{listItems}</ul>)
+    return(
+            <>
+                <h2>{category}</h2>
+                <ul>{listItems}</ul>
+            </>
+    )
 }
 
 export default List
