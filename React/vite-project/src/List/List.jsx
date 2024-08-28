@@ -1,3 +1,5 @@
+import propTypes from 'prop-types'
+import styles from './List.module.css'
 
 function List(props){
     // const fruits = [{id: 1, name: "Apple", calories: 95}, 
@@ -24,10 +26,22 @@ function List(props){
 
     return(
             <>
-                <h2>{category}</h2>
-                <ul>{listItems}</ul>
+                <h2 className={styles.listCategory}>{category}</h2>
+                <ul className={styles.listItems}>{listItems}</ul>
             </>
     )
 }
+
+List.prototype = {
+    category: propTypes.string,
+    items: propTypes.arrayOf(propTypes.shape({ id: propTypes.number,
+                                                name: propTypes.string,
+                                                calories: propTypes.number}))
+}
+List.defaultProps = {
+    category: "category",
+    items: [],
+}
+
 
 export default List
