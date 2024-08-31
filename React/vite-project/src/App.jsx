@@ -1,12 +1,19 @@
 // import Header from './01/Header.jsx'
 // import Footer from './01/Footer.jsx'
 // import Food from './01/Food.jsx'
-import Button from './Button/Button.jsx'
+// import Button from './Button/Button.jsx'
 // import Student from './Student/Student.jsx'
 // import UserGreeting from './UserGreeting/UserGreeting.jsx'
 // import List from './List/List.jsx'
 
+// import ProfilePicture from "./ProfilePicture/ProfilePicture";
 
+// import MyComponent from "./01/MyComponent";
+
+// import Counter from './Counter/Counter.jsx'
+// import MyComponent2 from "./01/MyComponent2";
+// import ColorPicker from "./ColorPicker/ColorPicker.jsx";
+import UpdateArray from "./01/UpdateArray";
 function App() {
 
   // const fruits = [{id: 1, name: "Apple", calories: 95}, 
@@ -26,7 +33,7 @@ function App() {
       {/* <Header/> */}
       {/* <Food/> */}
       {/* <Footer/> */}
-      <Button/>
+      {/* <Button/> */}
       {/* <Student name = "Abhi" age = {23} isStudent = {true}/>
       <Student name = "Sabir" age = {24} isStudent = {false} />
       <Student name = "Ani" age = {22} isStudent = {true}/>
@@ -41,8 +48,14 @@ function App() {
       {/* {vegitables.length > 0 && <List items = {vegitables} category = "Vegitable"/>} */}
      
 
-        
-      
+      {/* <ProfilePicture /> */}
+
+      {/* <MyComponent /> */}
+
+      {/* <Counter /> */}
+      {/* <MyComponent2/> */}
+      {/* <ColorPicker/> */}
+      <UpdateArray/>
     </>
   );
 }
