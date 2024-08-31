@@ -55,7 +55,7 @@ function App() {
       {/* <Counter /> */}
       {/* <MyComponent2/> */}
       {/* <ColorPicker/> */}
-      <UpdateArray/>
+      <UpdateArray/> 
     </>
   );
 }
