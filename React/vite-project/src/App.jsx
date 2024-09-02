@@ -13,7 +13,9 @@
 // import Counter from './Counter/Counter.jsx'
 // import MyComponent2 from "./01/MyComponent2";
 // import ColorPicker from "./ColorPicker/ColorPicker.jsx";
-import UpdateArray from "./01/UpdateArray";
+// import UpdateArray from "./01/UpdateArray";
+import ToDoList from "./ToDoList/ToDoList.jsx"
+
 function App() {
 
   // const fruits = [{id: 1, name: "Apple", calories: 95}, 
@@ -55,7 +57,9 @@ function App() {
       {/* <Counter /> */}
       {/* <MyComponent2/> */}
       {/* <ColorPicker/> */}
-      <UpdateArray/> 
+      {/* <UpdateArray/>  */}
+
+      <ToDoList/>
     </>
   );
 }
