@@ -14,7 +14,10 @@
 // import MyComponent2 from "./01/MyComponent2";
 // import ColorPicker from "./ColorPicker/ColorPicker.jsx";
 // import UpdateArray from "./01/UpdateArray";
-import ToDoList from "./ToDoList/ToDoList.jsx"
+
+// import ToDoList from "./ToDoList/ToDoList.jsx";
+
+import UseEffect from "./01/UseEffect";
 
 function App() {
 
@@ -59,7 +62,8 @@ function App() {
       {/* <ColorPicker/> */}
       {/* <UpdateArray/>  */}
 
-      <ToDoList/>
+      {/* <ToDoList/> */}
+        <UseEffect/>
     </>
   );
 }
